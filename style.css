@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #14274e;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-style: oblique;
+  color: white;
+  font-family: cursive;
+}
+
+/* Content */
+
+.container {
+  background: #9ba4b4;
+  padding: 0;
+  margin: 0;
+  width: 2700px;
+  height: 2700px;
+  margin: 50px auto;
+}
+
+h2 {
+  text-align: center;
+  font-family: cursive;
+  color: black;
+}
+
+#textare {
+  text-align: center;
+}
+
+@media (max-width: 535px) {
+  .container {
+    width: 400px;
+    height: 1800px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .navbar {
+    width: 400px;
+  }
+}
